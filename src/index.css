@@ -20,6 +20,10 @@ p, h2, h3, h4, h5, li {
   font-family: Montserrat;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 h2{
   font-weight: 800 !important;
 }
@@ -41,7 +45,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  width: 1150px;
 }
 
 .left-navbar {
@@ -56,6 +60,7 @@ h4 {
 }
 
 .title {
+  color: #000;
   font-family: Vibur;
   font-weight: 400;
   font-size: 50px;
@@ -104,14 +109,14 @@ h4 {
 /*HeroSection Css*/
 
 .hero-section{
-    display: flex;
-    flex-direction: row;
-    width: 1100px;
-    gap: 115px;
-    margin: 0 auto;
-    align-items: center;
-    margin-top: 65px;
-    margin-bottom: 45px;
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  gap: 115px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 65px;
+  margin-bottom: 45px;
 }
 
 .left-hero{
@@ -180,6 +185,7 @@ h4 {
   padding-top: 50px;
   background-color: #f2f2f2;
   height: 577px;
+  min-width: 1150px;
 }
 
 .about-section > h3 {
@@ -226,6 +232,7 @@ h4 {
 .learn-more{
     font-family: 16px;
     font-weight: 700;
+    color: #000;
 }
 
 .button-container {
@@ -248,6 +255,7 @@ h4 {
   padding: 0 auto;
   display: flex;
   align-items: center;
+  min-width: 1150px;
 }
 
 .class-code-container {
@@ -281,7 +289,7 @@ h4 {
   width: 270px;
 }
 
-.input-class-code > img {
+.input-class-code > a > img {
   width: 38px;
   height: 35px;
   margin-left: 10px;
@@ -387,7 +395,7 @@ h4 {
   margin-bottom: 120px;
   flex-direction: row;
   gap: 50px;
-  width: 1200px;
+  width: 1150px;
 }
 
 .doodle-signup {
@@ -418,6 +426,7 @@ h4 {
   width: 100%;
   margin-bottom: -20px;
   height: 500px;
+  min-width: 1150px;
 }
 
 .footer-flex-container {
@@ -425,7 +434,7 @@ h4 {
   margin: 0 auto;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 1200px;
+  width: 1150px;
 }
 
 .footer-column-1 {
@@ -462,7 +471,7 @@ h4 {
   gap: 5px;
 }
 
-.app-links-container > img {
+.app-links-container > a > img {
   width: 105px;
   margin-top: 5px;
 }
@@ -477,7 +486,7 @@ h4 {
   gap: 10px;
 }
 
-.follow-us-container > img {
+.follow-us-container > a >img {
   width: 30.15px;
 }
 
@@ -493,7 +502,7 @@ h4 {
   margin-top: 35px;
 }
 
-.footer-flex-container > div > ul > li {
+.footer-flex-container > div > ul > a > li {
   list-style-type: none;
   color: white;
   font-size: 16px;
