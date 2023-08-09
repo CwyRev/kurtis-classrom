@@ -4,7 +4,7 @@ import Logo from "../assets/Logo1.png";
 function NavBar() {
   let url = "#";
   return (
-    <nav className="nav-bar">
+    <nav className="navbar-section">
       <a href={url}>
         <div className="left-navbar">
           <img className="logo" src={Logo} alt="Logo" />

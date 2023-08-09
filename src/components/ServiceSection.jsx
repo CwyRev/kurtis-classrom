@@ -26,14 +26,19 @@ function ServiceSection() {
         </div>
       </div>
       <div className="host-container">
-        <div className="service-text">
+        <div id="service-text-2" className="service-text">
           <h3>Host or share</h3>
           <p>
             Host a live game with questions on a big screen or share a game with
             remote players.
           </p>
         </div>
-        <img src={Doodle_3} className="doodle" alt="doodle-3" />
+        <img
+          src={Doodle_3}
+          className="doodle"
+          id="doodle-host"
+          alt="doodle-3"
+        />
       </div>
       <div className="play-container">
         <img src={Doodle_4} className="doodle" alt="doodle-4" />

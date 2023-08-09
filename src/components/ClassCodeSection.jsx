@@ -9,7 +9,7 @@ function ClassCodeSection() {
     <div className="class-code-section">
       <div className="class-code-container">
         <img className="class-logo" src={Logo_2} alt="logo-white" />
-        <img src={BrandWhite} alt="brand-white" />
+        <img className="class-brand-name" src={BrandWhite} alt="brand-white" />
         <div className="input-class-code">
           <input placeholder="Write the code here"></input>
           <a href={url}>

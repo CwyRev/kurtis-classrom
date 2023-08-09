@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ServiceSection from "./components/ServiceSection";
 import SignupSection from "./components/SignupSection";
 import FooterSection from "./components/FooterSection";
+import "./App.css";
 
 function App() {
   return (
