@@ -485,6 +485,7 @@ a {
 
 .copyright-div {
   margin-top: 90px;
+  padding-bottom: 20px;
 }
 
 #copyright {
@@ -544,7 +545,7 @@ a {
     height: 500px;
   }
   .footer-flex-container {
-    width: 1200px;
+    width: 1100px;
   }
   .copyright-div {
     margin: 0 auto;
@@ -608,7 +609,6 @@ a {
   /* Footer Section 768px - 1200px */
   .copyright-div {
     margin-left: 30px;
-    padding-bottom: 20px;
   }
 }
 
@@ -622,7 +622,7 @@ a {
   }
   .header > h2 {
     font-size: 60px;
-    font-weight: 500;
+    font-weight: 700;
   }
   .right-navbar {
     display: none;
@@ -676,6 +676,9 @@ a {
   .service-section > p {
     font-size: 30px;
   }
+  .service-section > h3 {
+    font-size: 28px;
+  }
   #link-games {
     display: block;
     font-size: 30px;
@@ -698,10 +701,14 @@ a {
     margin: 0 auto;
   }
   /* Signup Section */
+  .signup-section {
+    margin-top: 50px;
+  }
   .highlights {
     flex-wrap: wrap;
   }
   .flex-container {
+    margin-top: 50px;
     width: 90%;
     flex-wrap: wrap;
   }
