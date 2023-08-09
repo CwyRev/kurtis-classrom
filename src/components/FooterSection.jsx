@@ -54,84 +54,98 @@ function FooterSection() {
         <div className="footer-column-2">
           <h5>About</h5>
           <ul>
-            <a href={url}>
-              <li>Company</li>
-            </a>
-            <a href={url}>
-              <li>Leadership</li>
-            </a>
-            <a href={url}>
-              <li>Jobs - HIRING!</li>
-            </a>
-            <a href={url}>
-              <li>Pricing</li>
-            </a>
-            <a href={url}>
-              <li>Press</li>
-            </a>
-            <a href={url}>
-              <li>Investors</li>
-            </a>
+            <li>
+              <a href={url}>Company</a>
+            </li>
+
+            <li>
+              <a href={url}>Leadership</a>
+            </li>
+
+            <li>
+              <a href={url}>Jobs - HIRING!</a>
+            </li>
+
+            <li>
+              <a href={url}>Pricing</a>
+            </li>
+
+            <li>
+              <a href={url}>Press</a>
+            </li>
+
+            <li>
+              <a href={url}>Investors</a>
+            </li>
           </ul>
         </div>
         <div className="footer-column-3">
           <h5>Solutions</h5>
           <ul>
-            <a href={url}>
-              <li>At School</li>
-            </a>
-            <a href={url}>
-              <li>At Work</li>
-            </a>
-            <a href={url}>
-              <li>At Home</li>
-            </a>
+            <li>
+              <a href={url}>At School</a>
+            </li>
+
+            <li>
+              <a href={url}>At Work</a>
+            </li>
+
+            <li>
+              <a href={url}>At Home</a>
+            </li>
           </ul>
         </div>
         <div className="footer-column-4">
           <h5>Resources</h5>
           <ul>
-            <a href={url}>
-              <li>Study with Kurtis</li>
-            </a>
-            <a href={url}>
-              <li>Blog</li>
-            </a>
-            <a href={url}>
-              <li>Kurtis Certified</li>
-            </a>
-            <a href={url}>
-              <li>Help Center</li>
-            </a>
-            <a href={url}>
-              <li>Library</li>
-            </a>
-            <a href={url}>
-              <li>Shop</li>
-            </a>
-            <a href={url}>
-              <li>Safety center</li>
-            </a>
+            <li>
+              <a href={url}>Study with Kurtis</a>
+            </li>
+
+            <li>
+              <a href={url}>Blog</a>
+            </li>
+
+            <li>
+              <a href={url}>Kurtis Certified</a>
+            </li>
+
+            <li>
+              <a href={url}>Help Center</a>
+            </li>
+
+            <li>
+              <a href={url}>Library</a>
+            </li>
+
+            <li>
+              <a href={url}>Shop</a>
+            </li>
+
+            <li>
+              <a href={url}>Safety center</a>
+            </li>
           </ul>
         </div>
         <div className="footer-column-5">
           <h5>Terms and conditions</h5>
           <ul>
-            <a href={url}>
-              <li>Terms and Conditions</li>
-            </a>
-            <a href={url}>
-              <li>Privacy Policy</li>
-            </a>
-            <a href={url}>
-              <li>US Privacy Laws</li>
-            </a>
-            <a href={url}>
-              <li>Children's Privary Policy</li>
-            </a>
-            <a href={url}>
-              <li>Inclusion and Accessibility policy</li>
-            </a>
+            <li>
+              <a href={url}>Terms and Conditions</a>
+            </li>
+
+            <li>
+              <a href={url}>Privacy Policy</a>
+            </li>
+            <li>
+              <a href={url}>US Privacy Laws</a>
+            </li>
+            <li>
+              <a href={url}>Children's Privary Policy</a>
+            </li>
+            <li>
+              <a href={url}>Inclusion and Accessibility policy</a>
+            </li>
           </ul>
         </div>
       </div>

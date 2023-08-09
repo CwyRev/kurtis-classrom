@@ -3,22 +3,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@700&family=Vibur&display=swap");
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
+  color: inherit;
 }
 
 /* NavBar SECTION */
 
 .navbar-section {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.navbar-container {
+  padding-top: 15px;
   margin: 0 auto;
-  padding-top: 41px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+.navbar-border {
+  border-bottom: solid 1px #757575;
+}
+
 .left-navbar {
   display: flex;
   margin-top: 10px;
+  background-color: #fff;
 }
 
 .logo {
@@ -80,8 +94,8 @@ a {
   flex-direction: row;
   justify-content: space-around;
   margin: 0 auto;
+  padding-top: 150px;
   align-items: center;
-  margin-top: 65px;
   margin-bottom: 45px;
 }
 
@@ -475,7 +489,7 @@ a {
   margin-top: 35px;
 }
 
-.footer-flex-container > div > ul > a > li {
+.footer-flex-container > div > ul > li {
   list-style-type: none;
   color: white;
   font-size: 16px;
@@ -497,7 +511,9 @@ a {
 /* MEDIA QUERIES */
 
 @media (min-width: 1200px) {
-  .navbar-section,
+  .navbar-container {
+    width: 1200px;
+  }
   .hero-section {
     width: 1150px;
   }
@@ -555,8 +571,8 @@ a {
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .navbar-section,
-  .hero-section {
+  .hero-section,
+  .navbar-container {
     width: 80%;
   }
   .left-hero {
@@ -613,8 +629,8 @@ a {
 }
 
 @media (max-width: 768px) {
-  .navbar-section {
-    display: block;
+  .navbar-container {
+    width: 354px;
   }
   .left-navbar {
     margin: 0 auto;
