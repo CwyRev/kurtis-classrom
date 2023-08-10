@@ -206,7 +206,7 @@ li {
 }
 
 .learn-more {
-  font-family: 16px;
+  font-size: 16px;
   font-weight: 700;
   color: #000;
 }
@@ -533,7 +533,7 @@ li {
     width: 210px;
   }
   .about-container > div > p {
-    width: 180px;
+    width: 205px;
   }
   /* Service Section */
   .service-text {
